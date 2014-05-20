@@ -11,6 +11,10 @@ body {
     overflow-x: hidden;
     overflow-y: hidden;
 }
+
+::selection {color:#003399;background-color:#fc0;}
+::-moz-selection {color:#003399;background-color:#fc0;}
+
 h1 {
     font-size: 4em;
     line-height: 1.33333em;
