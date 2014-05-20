@@ -71,7 +71,7 @@ li:before {
 }
 .contenu p { line-height: 24px }
 #house0 {
-    background: #003399;
+    background: #003399 url('http://www.marcoxxi.eu/sites/all/themes/marcoxxi/images/menu_gwiazdy.png') no-repeat top left;
     text-align: center;
 }
 #house0 p {
@@ -88,7 +88,7 @@ li:before {
 }
 #house0 h1 { margin-bottom: 100px }
 #house1,
-#house3 { background: #3a393c }
+#house3 { background: #3a393c; }
 #house1 p,
 #house3 p {
     color: #c4c4c4;
@@ -102,7 +102,7 @@ li:before {
 }
 #house1 h2,
 #house3 h2 { margin-bottom: 40px; }
-#house2 { background: #3a393c }
+#house2 { background: #3a393c; }
 #house2 p {
     color: #c4c4c4;
     margin-bottom: 10px;
