@@ -57,7 +57,17 @@ h2 {
 }
 .bigtext {
     font-size: 1.5em;
-    color: #c4c4c4;
+    color: #3a393c;
+    background-color: #fea;
+    padding: 2px;
+    margin: 10px 10px 10px 5px;
+    -webkit-transform: skew(0, -2deg);
+    -moz-transform: skew(0, -2deg);
+    -ms-transform: skew(0, -2deg);
+    -o-transform: skew(0, -2deg);
+    transform: skew(0, -2deg);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
 }
 ul.big {font-size: 1.5em;}
 ul.big > li {
@@ -69,9 +79,20 @@ ul.big > li:before {
 }
 ul.small {font-size: 1em;}
 ul.small > li {
-    margin: 5px 0 5px 45px;
-    color: #c4c4c4;
-    font-size: 0.8em;
+    margin: 5px 0 15px 45px;
+}
+ul.small > li > a {
+    color: #3a393c !important;
+    background-color: #fea;
+    font-size: 0.6em;
+    padding: 2px;
+    margin: 10px 0 10px 5px;
+    -webkit-transform: skew(0, -2deg);
+    -moz-transform: skew(0, -2deg);
+    -ms-transform: skew(0, -2deg);
+    -o-transform: skew(0, -2deg);
+    transform: skew(0, -2deg);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 #content { background: #000 }
 .contenu {
